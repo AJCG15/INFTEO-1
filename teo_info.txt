@@ -1,0 +1,112 @@
+*conjunto
+
+https://aprendeconalf.es/analisis-manual/01-teoria-conjuntos.html
+
+Un conjunto es a una colección o agrupación bien definida de objetos que puede considerarse en sí misma otro objeto. Para representar un conjunto se indican sus elementos entre llaves y normalmente se utilizarán letras mayúsculas para referirse a ellos.
+Ejemplo:
+El conjunto de los días de la semana es A={L,M,X,J,V,S,D
+El conjunto de los colores básicos es B={rojo,verde,azul}
+El conjunto de los puntos de un dado C={1,2,3,4,5,6}
+El conjunto de los números naturales paresD={2,4,6...}
+
+	extension:Se listan todos los elementos del conjunto, separados 	por comas.
+
+	Ejemplos:
+	A = {a,b,c,d}     C = {1,2,3,4}
+
+	comprensión: Se describe una propiedad que todos los elementos 	cumplen.
+
+	Ejemplos:
+		D={x∣x es un nuˊmero par menor que 10}
+
+
+*Cardinalidad 
+https://www.datacamp.com/es/tutorial/cardinality
+La cardinalidad se refiere al número de valores únicos de una columna del conjunto de datos. Una columna con cardinalidad alta contiene un gran número de valores únicos, mientras que las columnas con cardinalidad baja contienen menos entradas únicas.
+ejemplo:
+Marcas de tiempo
+ID de cliente
+ID de transacción
+
+*conjunto infinito
+https://www-cuemath-com.translate.goog/algebra/finite-and-infinite-sets/?
+ Los elementos de los conjuntos infinitos son infinitos. Si un conjunto es infinito desde el principio, el final o ambos lados tienen continuidad, podemos decir que ese conjunto es infinito. Por ejemplo, el conjunto de números enteros, W = {0, 1, 2, 3, ……..} 
+
+
+
+*operaciones con conjuntos
+https://www.superprof.es/diccionario/matematicas/aritmetica/operaciones.html
+https://www.smartick.es/blog/matematicas/jerarquia-de-operaciones
+
+Una operación es un conjunto de reglas que permiten obtener otras cantidades o expresiones.
+
+	Unión : La unión de dos conjuntos A Y B es conjunto que 	contiene todos los elementos de A y B sin repetir
+
+	interseccion:La intersección de A y B es un conjunto que 	contiene solo los elementos que están en ambos conjuntos.
+
+	Diferencia: A y B contiene los elementos que están en 
+	A pero no en B
+
+	Complemento: Si tenemos un conjunto universal U que contiene 	todos los elementos posibles, el complemento de A 
+
+	diferencia simétrica: entre dos conjuntos A y B es el conjunto 	de elementos que están en uno de los conjuntos, pero no en 	ambos.
+
+	producto cartesiano:de dos conjuntos A y B es el conjunto de      	todos los pares ordenados(a,b),donde a ∈ A Y b ∈ B
+
+
+
+*relaciones
+https://definicion.de/relacion-matematica
+
+Una relación matemática es la correspondencia que existe entre dos conjuntos: a cada elemento del primer conjunto le corresponde al menos un elemento del segundo conjunto. Cabe destacar que la idea de relación refiere a un vínculo.
+
+Cuando a cada elemento de un conjunto le corresponde solo uno del otro, se habla de función.
+
+	Reflexiva:
+	Todo elemento se relaciona consigo mismo (a,a)∈ R ∀a ∈ A 
+      
+   	simétrica:
+	si a se relaciona con b ,entonces b se relaciona con a.
+
+	antisimétrica:
+	si a se relaciona con b y b con a , entonces a = b.
+
+	transitiva:
+	si a se relaciona con b y b con c , entonces a se relaciona con 	c.
+
+	Relaciones de equivalencia: es una relacion R sobre un conjunto 	A que cumple 3 propiedades: flexiva, simetrica,transitiva.
+
+	Relacion de orden: R sobre un conjunto A organiza los elementos  	de manera ORDENADA. puede ser parcial o total
+	 - parcial : reflesiva,antirimetrica y transitiva.
+	 - orden : Todos los elementos son comparables entre sí 	   (ejemplo: ≤ sobre los números naturales).
+
+	
+
+
+*funciones
+https://www.smartick.es/blog/matematicas/algebra/funciones-matematicas
+
+Las funciones matemáticas son como máquinas mágicas matemáticas que nos ayudan a relacionar números de una manera especial. Imagina que las funciones son como recetas secretas que toman un número y hacen algo interesante con él. Dentro de una función matemática hay combinaciones de números, variables y operaciones matemáticas, como la suma, resta, multiplicación y división, es decir, expresiones algebraicas.
+Una función es como una regla que nos dice qué hacer con los números. En matemáticas, escribimos una función como f(x) o y = f(x) para mostrar que está relacionada con un número al que llamamos x.
+
+	Inyectiva: (uno a uno)Diferentes elementos del dominio tienen 	imágenes distintas.
+
+	Sobreyectiva:(sobre)Cada elemento del codominio es imagen de 	algún elemento del dominio.
+
+	Biyectiva: Inyectiva y sobreyectiva al mismo tiempo.
+
+
+*clausuras
+https://study-com.translate.goog/academy/lesson/the-closure-property-of-real-numbers.html?
+
+La propiedad de clausura es un concepto fundamental en matemáticas que garantiza que el resultado de una operación sobre elementos de un conjunto permanezca dentro de dicho conjunto. Es una propiedad crucial que permite operaciones y estructuras matemáticas consistentes y predecibles.
+
+	reflexiva: cada elemento se relaciona consigo mismo de otra  	manera cada persona debe estar conectada consigo misma.
+
+	simétrica: si a esta relacionada con b , entonces b esta   	relacionada con a.de otra manera si alguien está conectado con 	otra persona, esa otra persona también debe estar conectada con 	él.
+
+	transitiva: si a esta relacionado con b y b con c entonces a 	esta relacionada con c. de otra manera si alguien está 	conectado con otra persona, y esa persona está conectada con 	una tercera, entonces la primera también debe estar conectada 	con la tercera.
+
+	equivalencia: Para que sea una relación de equivalencia, tiene     	que cumplir tres reglas fáciles de recordar:	reflexiva ,simétrica , transitiva.
+ 
+	
