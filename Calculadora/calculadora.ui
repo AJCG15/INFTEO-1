@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>361</width>
+    <height>308</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Calculadora</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 0, 0);</string>
+  </property>
+  <widget class="QPushButton" name="boton_1">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>60</y>
+     <width>80</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(28, 113, 216);
+font: 81 italic 17pt &quot;Ubuntu Sans&quot;;</string>
+   </property>
+   <property name="text">
+    <string>1</string>
+   </property>
+   <property name="shortcut">
+    <string>1</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_parentesisAbierto">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>60</y>
+     <width>80</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(129, 61, 156);
+font: 81 italic 17pt &quot;Ubuntu Sans&quot;;</string>
+   </property>
+   <property name="text">
+    <string>(</string>
+   </property>
+   <property name="shortcut">
+    <string>(</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_2">
+   <property name="geometry">
+    <rect>
+     <x>98</x>
+     <y>60</y>
+     <width>80</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(28, 113, 216);
+font: 81 italic 17pt &quot;Ubuntu Sans&quot;;</string>
+   </property>
+   <property name="text">
+    <string>2</string>
+   </property>
+   <property name="shortcut">
+    <string>2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_3">
+   <property name="geometry">
+    <rect>
+     <x>184</x>
+     <y>60</y>
+     <width>80</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(28, 113, 216);
+font: 81 italic 17pt &quot;Ubuntu Sans&quot;;</string>
+   </property>
+   <property name="text">
+    <string>3</string>
+   </property>
+   <property name="shortcut">
+    <string>3</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="valor">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>10</y>
+     <width>338</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(143, 240, 164);
+font: 63 18pt &quot;URW Bookman&quot;;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+   <property name="margin">
+    <number>3</number>
+   </property>
+   <property name="indent">
+    <number>0</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>8</x>
+     <y>10</y>
+     <width>338</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(143, 240, 164);
+font: 63 18pt &quot;URW Bookman&quot;;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+   <property name="margin">
+    <number>3</number>
+   </property>
+   <property name="indent">
+    <number>0</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_C">
+   <property name="geometry">
+    <rect>
+     <x>184</x>
+     <y>187</y>
+     <width>81</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 163, 72);
+font: 81 italic 17pt &quot;Ubuntu Sans&quot;;</string>
+   </property>
+   <property name="text">
+    <string>c</string>
+   </property>
+   <property name="shortcut">
+    <string>Esc</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_AC">
+   <property name="geometry">
+    <rect>
+     <x>184</x>
+     <y>228</y>
+     <width>80</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 163, 72);
+font: 81 italic 17pt &quot;Ubuntu Sans&quot;;</string>
+   </property>
+   <property name="text">
+    <string>AC</string>
+   </property>
+   <property name="shortcut">
+    <string>Backspace</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_9">
+   <property name="geometry">
+    <rect>
+     <x>184</x>
+     <y>144</y>
+     <width>79</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(28, 113, 216);
+font: 81 italic 17pt &quot;Ubuntu Sans&quot;;</string>
+   </property>
+   <property name="text">
+    <string>9</string>
+   </property>
+   <property name="shortcut">
+    <string>9</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_punto">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>144</y>
+     <width>80</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(129, 61, 156);
+font: 81 italic 17pt &quot;Ubuntu Sans&quot;;</string>
+   </property>
+   <property name="text">
+    <string>.</string>
+   </property>
+   <property name="shortcut">
+    <string>.</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_divicion">
+   <property name="geometry">
+    <rect>
+     <x>98</x>
+     <y>228</y>
+     <width>80</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(165, 29, 45);
+font: 81 italic 17pt &quot;Ubuntu Sans&quot;;</string>
+   </property>
+   <property name="text">
+    <string>÷</string>
+   </property>
+   <property name="shortcut">
+    <string>/</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_4">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>102</y>
+     <width>80</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(28, 113, 216);
+font: 81 italic 17pt &quot;Ubuntu Sans&quot;;</string>
+   </property>
+   <property name="text">
+    <string>4</string>
+   </property>
+   <property name="shortcut">
+    <string>4</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_menos">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>270</y>
+     <width>80</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(165, 29, 45);
+font: 81 italic 17pt &quot;Ubuntu Sans&quot;;</string>
+   </property>
+   <property name="text">
+    <string>-</string>
+   </property>
+   <property name="shortcut">
+    <string>-</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_multiplica">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>228</y>
+     <width>80</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(165, 29, 45);
+font: 81 italic 17pt &quot;Ubuntu Sans&quot;;</string>
+   </property>
+   <property name="text">
+    <string>x</string>
+   </property>
+   <property name="shortcut">
+    <string>X</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_0">
+   <property name="geometry">
+    <rect>
+     <x>98</x>
+     <y>186</y>
+     <width>80</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(28, 113, 216);
+font: 81 italic 17pt &quot;Ubuntu Sans&quot;;</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+   <property name="shortcut">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_salir">
+   <property name="geometry">
+    <rect>
+     <x>184</x>
+     <y>270</y>
+     <width>165</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(237, 51, 59);
+font: 81 italic 17pt &quot;Ubuntu Sans&quot;;</string>
+   </property>
+   <property name="text">
+    <string>salir</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_mas">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>186</y>
+     <width>80</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(165, 29, 45);
+font: 81 italic 17pt &quot;Ubuntu Sans&quot;;</string>
+   </property>
+   <property name="text">
+    <string>+</string>
+   </property>
+   <property name="shortcut">
+    <string>+</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_6">
+   <property name="geometry">
+    <rect>
+     <x>184</x>
+     <y>102</y>
+     <width>80</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(28, 113, 216);
+font: 81 italic 17pt &quot;Ubuntu Sans&quot;;</string>
+   </property>
+   <property name="text">
+    <string>6</string>
+   </property>
+   <property name="shortcut">
+    <string>6</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_7">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>144</y>
+     <width>80</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(28, 113, 216);
+font: 81 italic 17pt &quot;Ubuntu Sans&quot;;</string>
+   </property>
+   <property name="text">
+    <string>7</string>
+   </property>
+   <property name="shortcut">
+    <string>7</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_5">
+   <property name="geometry">
+    <rect>
+     <x>98</x>
+     <y>102</y>
+     <width>80</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(28, 113, 216);
+font: 81 italic 17pt &quot;Ubuntu Sans&quot;;</string>
+   </property>
+   <property name="text">
+    <string>5</string>
+   </property>
+   <property name="shortcut">
+    <string>5</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_igual">
+   <property name="geometry">
+    <rect>
+     <x>269</x>
+     <y>187</y>
+     <width>80</width>
+     <height>77</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(129, 61, 156);
+font: 81 italic 17pt &quot;Ubuntu Sans&quot;;</string>
+   </property>
+   <property name="text">
+    <string>=</string>
+   </property>
+   <property name="shortcut">
+    <string>=</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_8">
+   <property name="geometry">
+    <rect>
+     <x>98</x>
+     <y>144</y>
+     <width>80</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(28, 113, 216);
+font: 81 italic 17pt &quot;Ubuntu Sans&quot;;</string>
+   </property>
+   <property name="text">
+    <string>8</string>
+   </property>
+   <property name="shortcut">
+    <string>8</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_parentesisCerrado">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>102</y>
+     <width>80</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+background-color: rgb(129, 61, 156);
+font: 81 italic 17pt &quot;Ubuntu Sans&quot;;</string>
+   </property>
+   <property name="text">
+    <string>)</string>
+   </property>
+   <property name="shortcut">
+    <string>)</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_modulo">
+   <property name="geometry">
+    <rect>
+     <x>98</x>
+     <y>270</y>
+     <width>80</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(165, 29, 45);
+font: 81 italic 17pt &quot;Ubuntu Sans&quot;;</string>
+   </property>
+   <property name="text">
+    <string>%</string>
+   </property>
+   <property name="shortcut">
+    <string>%</string>
+   </property>
+  </widget>
+  <zorder>boton_punto</zorder>
+  <zorder>boton_divicion</zorder>
+  <zorder>boton_4</zorder>
+  <zorder>boton_menos</zorder>
+  <zorder>boton_multiplica</zorder>
+  <zorder>boton_0</zorder>
+  <zorder>boton_salir</zorder>
+  <zorder>boton_mas</zorder>
+  <zorder>boton_6</zorder>
+  <zorder>boton_7</zorder>
+  <zorder>boton_5</zorder>
+  <zorder>boton_igual</zorder>
+  <zorder>boton_8</zorder>
+  <zorder>boton_parentesisCerrado</zorder>
+  <zorder>boton_modulo</zorder>
+  <zorder>label_2</zorder>
+  <zorder>boton_1</zorder>
+  <zorder>boton_parentesisAbierto</zorder>
+  <zorder>boton_2</zorder>
+  <zorder>boton_3</zorder>
+  <zorder>valor</zorder>
+  <zorder>boton_AC</zorder>
+  <zorder>boton_9</zorder>
+  <zorder>boton_C</zorder>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>boton_C</sender>
+   <signal>clicked()</signal>
+   <receiver>valor</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>220</x>
+     <y>205</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>181</x>
+     <y>46</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boton_salir</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>256</x>
+     <y>289</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>355</x>
+     <y>275</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
